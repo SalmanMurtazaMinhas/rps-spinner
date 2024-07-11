@@ -1,0 +1,131 @@
+#gameBody{
+    margin: 0;
+    background-image: url('../img/page 2.gif');
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#homeBody {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+#startButton {
+    font-size: 30px;
+    /* left: 42%; */
+    border-radius: 20px;
+
+}
+
+.flex-con {
+    font-size: 40px;
+    color: rgb(74, 74, 82);
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.s1 {
+    color: brown;
+}
+.s2 {
+    color: blue;
+    /* padding-right: 120px; */
+
+}
+
+.vs {
+    /* position: absolute; */
+    /* left: 47%; */
+    color: rgb(166, 162, 162);
+}
+.names-con {
+    display: flex;
+    width: 94vw;
+    justify-content: center;
+    justify-content: space-around;
+}
+.button-con {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    position: absolute;
+    bottom: 4%;
+    font-family: 'Press Start 2P', cursive;
+    border: 0;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.dance1, .dance2, .dance3 {
+    position: fixed;
+}
+
+.dance1 {
+    left: 100px;
+    width: 350px;
+}
+
+.dance2 {
+    width: 450px;
+}
+
+.dance3 {
+    right: 10px;
+    width: 600px;
+}
+
+.remain{
+    position: fixed;
+    color: rgb(210, 210, 210);
+    top: 20vh;
+    /* margin-top: -10%; */
+}
+
+.names {
+    width: 40%;
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
