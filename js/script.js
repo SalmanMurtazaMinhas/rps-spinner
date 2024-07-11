@@ -9,15 +9,8 @@ let students1 = [
   'Ahmed Hamad',
   'Ahmed Mohammed',
   'Ali Hussain',
-  'Ali Abdulkarim',
-  'Ali Adel Juma',
-  'Ali Hadi',
   'Ebrahim	Khalil',
-  'Fadel Mohammad',
   'Fadhel Abbas',
-  'Haroon Alnhdi ',
-  'Hussain	AbdulAmeer',
-  'Jaber A.Hussain',
   'Khalil Khunji',
   'Mahmood	Althawadi'
 ]
@@ -26,15 +19,8 @@ let students2 = [
   'Mariam Qasim',
   'Maryam mohamed',
   'Maryam Mohsen',
-  'Mohammed Isa',
-  'Mueen Ali',
   'Mujtaba Ali',
   'Muntadher ali',
-  'Nohaiz Kaiser',
-  'Qasim Mahdi',
-  'Redha Mohamed',
-  'S.Ahmed	Husain',
-  'Yusuf Ahmed',
   'Zainab Ali',
   'Zainab Dhaif'
 ]
